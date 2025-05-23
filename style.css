@@ -1,0 +1,100 @@
+<img src="pink-vibes.jpg" alt="pink aesthetic vibes" width="300">
+
+img {
+  border-radius: 20px;   /* soft rounded corners */
+  box-shadow: 0 0 15px pink;  /* glow effect */
+  margin-top: 20px;
+}/* soft pink background with subtle pattern */
+body {
+  background: #fae3eb url('https://www.transparenttextures.com/patterns/candy.png') repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fcb8d2; /* light pink text */
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0;
+}
+
+/* big dreamy header */
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  color: #ff99cc; /* light pink header */
+  text-shadow: 2px 2px 6px #ffcce5;
+  margin-bottom: 10px;
+}
+
+/* delicate subtext */
+p {
+  font-style: italic;
+  font-size: 22px;
+  color: #fcb8d2; /* light pink */
+  margin-bottom: 40px;
+}
+
+/* glowing image styling */
+img {
+  border-radius: 30px;
+  box-shadow: 0 0 25px 5px #ffb6c1;
+  max-width: 300px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 0 35px 8px #ff69b4;
+}
+
+/* cute pink button */
+button {
+  background-color: #ff66b3;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ff85c1;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3399;
+  box-shadow: 0 0 25px #ff4d94;
+}
+
+/* footer text */
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #fcb8d2; /* light pink */
+  font-style: italic;
+}/* soft navigation buttons */
+.nav-buttons {
+  margin-bottom: 40px;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  background-color: #ffe6f0;
+  color: #cc0077;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px;
+  box-shadow: 0 0 10px #ffb6d1;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #ffccdd;
+  color: #fff0f5;
+  box-shadow: 0 0 20px #ff99c8;
+}<style>
+  * {
+    cursor: url('https://cur.cursors-4u.net/heart/hea-13/hea123.cur'), auto !important;
+  } 
+
